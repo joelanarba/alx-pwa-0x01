@@ -10,20 +10,20 @@ const Footer: React.FC = () => {
           Cine<span className="text-[#E2D609]">Seek</span>
         </h2>
         <nav className="flex-1 flex justify-center space-x-6 mb-4 md:mb-0">
-          <Link href="/" className="hover:text-[#E2D609] text-lg transition duration-300">Home</Link>
-          <Link href="/movies" className="hover:text-[#E2D609] text-lg transition duration-300">Movies</Link>
-          <Link href="/contact" className="hover:text-[#E2D609] text-lg transition duration-300">Contact</Link>
-          <Link href="/privacy" className="hover:text-[#E2D609] text-lg transition duration-300">Privacy Policy</Link>
+          <Link href="/" className="hover:text-[#E2D609] text-lg">Home</Link>
+          <Link href="/movies" className="hover:text-[#E2D609] text-lg">Movies</Link>
+          <Link href="/contact" className="hover:text-[#E2D609] text-lg">Contact</Link>
+          <Link href="/privacy" className="hover:text-[#E2D609] text-lg">Privacy Policy</Link>
         </nav>
         <div className="flex space-x-4">
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]">
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
+            <FontAwesomeIcon icon={faTwitter} />
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]">
-            <FontAwesomeIcon icon={faFacebook} size="lg" />
+            <FontAwesomeIcon icon={faFacebook} />
           </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]">
-            <FontAwesomeIcon icon={faInstagram} size="lg" />
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
       </div>

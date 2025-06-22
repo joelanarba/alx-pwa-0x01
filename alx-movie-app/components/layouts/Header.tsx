@@ -9,9 +9,9 @@ const Header: React.FC = () => {
           Cine<span className="text-[#E2D609]">Seek</span>
         </h2>
         <nav className="hidden md:flex flex-1 justify-center space-x-8">
-          <Link href="/" className="hover:text-[#E2D609] text-xl transition duration-300 font-semibold">Home</Link>
-          <Link href="/movies" className="hover:text-[#E2D609] text-xl transition duration-300 font-semibold">Movies</Link>
-          <Link href="/contact" className="hover:text-[#E2D609] text-xl transition duration-300 font-semibold">Contact</Link>
+          <Link href="/" className="hover:text-[#E2D609] text-xl font-semibold">Home</Link>
+          <Link href="/movies" className="hover:text-[#E2D609] text-xl font-semibold">Movies</Link>
+          <Link href="/contact" className="hover:text-[#E2D609] text-xl font-semibold">Contact</Link>
         </nav>
         <div className="flex">
           <Button title="Sign in" />
